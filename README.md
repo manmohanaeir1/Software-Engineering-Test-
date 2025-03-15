@@ -27,5 +27,32 @@ This project is a basic log parsing and alerting system designed to monitor a lo
 php system_monitor.php
 ```  
  
+ 
+# WebScanCrawler
+
+## Description
+WebScanCrawler is a simple web crawler designed to scan a website for basic security vulnerabilities. The crawler checks for the presence of HTTP security headers, outdated software versions, and forms without proper security attributes. It generates a report listing any detected vulnerabilities.
+
+## Function Explanation
+The core of this project is the `scanURL` function, which is responsible for scanning the specified URL for security vulnerabilities. Here is a detailed explanation of how the function works:
+
+## Steps to Run the Code
+1. **Clone the Repository **:
+   ``` sh
+   git clone https://github.com/manmohanaeir1/WebScanCrawler.git
+   cd WebScanCrawler
+   
+
+2. ** Run the PHP Script: Execute the PHP script to start the vulnerability scan**:
+   ``` sh
+   php index.php
+3. ** View the Output: The script will print a vulnerability scan report to the output, listing any detected security issues **.
+
+4. ** Expected Output**
+   ``` sh
+    VULNERABILITY SCAN REPORT FOR https://itzonecomputer.com:
+    MISSING HTTP SECURITY HEADER: X-Content-Type-Options
+
+
 
    
